@@ -71,5 +71,5 @@ posi.x += 1.0f;
 ```
 ---
 ## ＜衝突判定＞
-##### Rigidbody とCollider をコンポーネント
+##### Rigidbody とCollider のコンポーネントを付ける
 ##### **`2D`と`3D`用がある**
