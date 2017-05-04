@@ -34,7 +34,7 @@ GameObject.Find("player");
 ---
 ## ＜オブジェクトの生成＞
 ```
-GameObject go = (GameObject) Instantiate (gameobject);    /* gameobjectは何度もいい */
+GameObject go = (GameObject) Instantiate (gameobject);    /* gameobjectは何でもいい */
 ```
 ---
 ## ＜自分自身を削除＞
