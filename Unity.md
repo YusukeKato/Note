@@ -122,3 +122,12 @@ if (Input.GetMouseButtonUp(0)) {
 /* 座標取得 */
 Vector3 posi = Input.mousePosition;    /* スクリーン座標系 */
 ```
+---
+## ＜オブジェクトを有効・無効にする＞
+##### インスペクタ―ビューでオブジェクト名の左にあるチェックでも可能
+##### オブジェクトを無効にすると、それに付いているスクリプトも無効になるので気をつける
+```
+gameobject.SetActive(true);     /* 有効 */
+gameobject.SetAcitve(false);    /* 無効 */
+```
+---
