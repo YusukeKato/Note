@@ -49,6 +49,7 @@ Debug.log("debug");
 ```
 ---
 ## ＜座標系は３つ＞
+### **理解が曖昧なところ**
 ##### **ワールド座標** : 3D空間の座標
 ##### **スクリーン座標** : 画面のサイズ（解像度）、左下が原点
 ##### **ビューポート座標** : スクリーン座標の値を０～１にしたもの
@@ -130,5 +131,11 @@ Vector3 posi = Input.mousePosition;    /* スクリーン座標系 */
 ```
 gameobject.SetActive(true);     /* 有効 */
 gameobject.SetAcitve(false);    /* 無効 */
+```
+---
+## ＜１フレームの時間を取得＞
+##### float型
+```
+delta += Time.deltaTime;
 ```
 ---
