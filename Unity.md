@@ -139,3 +139,7 @@ gameobject.SetAcitve(false);    /* 無効 */
 delta += Time.deltaTime;
 ```
 ---
+## ＜画像の使用＞
+##### 画像をドラック＆ドロップでプロジェクトビューに入れる
+##### インスペクタ―ビューで`Texture type`を変更。`Sprite(2D & UI)`など
+---
