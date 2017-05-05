@@ -22,6 +22,11 @@ GameObject prefab;
 GameObject button;
 GameObject text;
 ```
+```
+public Text text2;
+//-----------------------//
+text2.text = "hello world!!";
+```
 ---
 ## ＜外部から参照するときは `public` を付ける（逆は `private` ）＞
 ```
