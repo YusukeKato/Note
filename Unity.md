@@ -7,7 +7,7 @@
 ---
 ---
 ## ＜コンポーネントの取得＞
-##### ＊インスペクタ―ビューでコンポーネントを確認する
+##### ＊ `Inspector` で `component` を確認する
 ```
 GetComponent<コンポーネント名> ().変数名
 ```
@@ -15,7 +15,7 @@ GetComponent<コンポーネント名> ().変数名
 text1.GetComponent<Text> ().text = "Hello World!!";
 ```
 ---
-## ＜ほとんどのものは`GameObject`型として扱える（それぞれの型もある）＞
+## ＜ほとんどのものは `GameObject` として扱える（それぞれのクラスもある）＞
 ```
 GameObject camera;
 GameObject prefab;
@@ -23,12 +23,12 @@ GameObject button;
 GameObject text;
 ```
 ---
-## ＜外部から参照するときは`public`を付ける（逆は`private`）＞
+## ＜外部から参照するときは `public` を付ける（逆は `private` ）＞
 ```
 public GameObject prefab;
 ```
 ---
-## ＜`GameObject`を見つける＞
+## ＜ `GameObject` を見つける＞
 ```
 GameObject.Find("player");
 ```
@@ -73,7 +73,7 @@ posi.x += 1.0f;
 ```
 ---
 ## ＜衝突判定や重力など＞
-##### Rigidbody とCollider のコンポーネントを付ける
+##### `Rigidbody` と `Collider` の `component` を付ける
 ##### **`2D`と`3D`用がある**
 ---
 ## ＜セーブ＞
@@ -126,7 +126,7 @@ Vector3 posi = Input.mousePosition;    /* スクリーン座標系 */
 ```
 ---
 ## ＜オブジェクトを有効・無効にする＞
-##### インスペクタ―ビューでオブジェクト名の左にあるチェックでも可能
+##### `Inspector` でオブジェクト名の左にあるチェックでも可能
 ##### オブジェクトを無効にすると、それに付いているスクリプトも無効になるので気をつける
 ```
 gameobject.SetActive(true);     /* 有効 */
@@ -140,6 +140,6 @@ delta += Time.deltaTime;
 ```
 ---
 ## ＜画像の使用＞
-##### 画像をドラック＆ドロップでプロジェクトビューに入れる
-##### インスペクタ―ビューで`Texture type`を変更。`Sprite(2D & UI)`など
+##### 画像をドラック＆ドロップで `project` に入れる
+##### `Inspector` で `Texture type` を変更。 `Sprite(2D & UI)` など
 ---
