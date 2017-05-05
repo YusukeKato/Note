@@ -143,3 +143,22 @@ delta += Time.deltaTime;
 ##### 画像をドラック＆ドロップで `project` に入れる
 ##### `Inspector` で `Texture type` を変更。 `Sprite(2D & UI)` など
 ---
+## ＜スクリプトにアクセス＞
+```
+GetComponent<コンポーネント名> ()     /* げ＾ムオブジェクトを参照して、スクリプトにアクセス */
+FindObjectOfType<スクリプト名> ()    /* スクリプトを参照して、スクリプトにアクセス */
+```
+---
+## ＜音＞
+##### `AudioSource` から出て、 `AudioListener` で聴く
+```
+public AudioClip audioClip1;
+private AudioSource audioSource;
+//---------------------------------------------------------//
+audioSource = gameObject.GetComponent<AudioSource>();
+audioSource.clip = audioClip1;
+audioSource.Play ();    /* 方法１ */
+audioSource.PlayOneShot(audioClip1);    /* 方法２ */
+```
+---
+
