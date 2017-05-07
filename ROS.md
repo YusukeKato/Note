@@ -14,6 +14,25 @@
 ```
 roscd : cd
 rosls : ls
+$ rosed [package_name] [filename]
+$ rosed roscpp Logger.msg
+```
+---
+## ＜ メッセージとサービス ＞
+#### msgファイルは、ROSメッセージの型を説明するテキストファイル
+```
+int64 num
+```
+#### srvファイルは、サービスを記述
+```
+int64 a
+int64 b
+---
+int64 c
+```
+```
+$ rosmsg show [message type]
+$ rossrv show <service type>
 ```
 ---
 ## ＜ オプション ＞
@@ -113,3 +132,4 @@ $ rosparam set background_r 150
 ---
 ---
 ---
+
