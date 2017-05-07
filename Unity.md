@@ -5,11 +5,13 @@
 ### *公式のチュートリアル、参考書、インターネットなど情報はたくさんある*
 ### *ここにはよく使うものをまとめる*
 ---
-### BuildSettingで `Company Name` , `Product Name` を変更する（必ず）
----
 ## ＜スクリーンのサイズ＞ はじめにやっておく
 ##### `BuildSetting` で　プラットフォームを選択
 ##### その後、`game view` で画面サイズを選択
+---
+## ＜忘れずにやっておくこと＞
+##### BuildSettingで、必要な `Scene` すべてを登録する
+##### BuildSettingで `Company Name` , `Product Name` を変更する
 ---
 ## ＜コンポーネントの取得＞
 ##### ＊ `Inspector` で `component` を確認する
