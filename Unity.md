@@ -173,4 +173,11 @@ audioSource.Play ();    /* 方法１ */
 audioSource.PlayOneShot(audioClip1);    /* 方法２ */
 ```
 ---
+## ＜シーン遷移＞
+```
+using UnityEngine.SceneManagement;
+//-------------------------------------------
+SceneManager.LoadScene("Scene_Name");
+```
+---
 
