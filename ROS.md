@@ -1,3 +1,15 @@
+---
+---
+---
+---
+---
+## ＜ 通信方法 ＞
+#### `Node` : 一つのプロセスのこと
+#### `Publisher` （ 送信者 ） と `Subscriber` （ 受信者 ）、`Node` 間で行う
+#### `Topic` : `Node` が送受信するデータ（ 非同期 ）
+#### `Service` : 同期する
+#### `Paramerter` : YAML形式、データの蓄積・操作を行う
+---
 ## ＜ rosbash ＞
 ```
 roscd : cd
@@ -96,4 +108,8 @@ $ rosparam set [param_name]
 $ rosparam get background_r
 $ rosparam set background_r 150
 ```
+---
+---
+---
+---
 ---
