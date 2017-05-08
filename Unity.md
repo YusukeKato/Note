@@ -181,8 +181,7 @@ SceneManager.LoadScene("Scene_Name");
 ```
 ---
 ## ＜ 乱数 ＞
-#### MIN <= val <= MAX
-#### float, int
+#### MIN <= val <= MAX　( float, int )
 ```
 val = Random.Range(MIN, MAX);
 ```
