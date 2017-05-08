@@ -180,4 +180,18 @@ using UnityEngine.SceneManagement;
 SceneManager.LoadScene("Scene_Name");
 ```
 ---
-
+## ＜ 乱数 ＞
+#### MIN <= val <= MAX
+#### float, int
+```
+val = Random.Range(MIN, MAX);
+```
+---
+## ＜ 色 ＞
+#### コンポーネントをしっかり確認する
+#### 以下に例を示す。この通りではない。
+```
+Color Blue = new Color(0.6f, 0.8f, 0.6f, 1.0f);
+prefab.GetComponent<Renderer> ().material.color = Blue;
+```
+---
