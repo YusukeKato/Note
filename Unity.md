@@ -193,7 +193,7 @@ Color Blue = new Color(0.6f, 0.8f, 0.6f, 1.0f);
 prefab.GetComponent<Renderer> ().material.color = Blue;
 ```
 ---
-## ＜　コールチン　＞
+## ＜　N 秒待ってから関数処理　＞
 ```
 StartCoroutine("function");
 IEnumerator function(){
