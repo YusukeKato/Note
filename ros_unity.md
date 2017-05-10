@@ -1,5 +1,5 @@
 ---
-# `Unity` から `ROS` を使ってロボットを動かす
+# `Unity` と `ROS` でロボットを動かす
 # *調べたことのまとめ、間違っているかもしれない*
 ---
 ## < rosbridge >
@@ -9,7 +9,7 @@
 $ rosrun rosbridge rosbridge.py
 ```
 #### JSON形式で通信するとROSのAPIに変換
-#### 以下、wikiより例を示す
+#### 以下、wikiよりJSONの例を示す
 ```
 { "op": "subscribe",
   "topic": "/cmd_vel",
@@ -43,11 +43,14 @@ ws.OnClose += (sender, e) => {
     /* e.Code : 終了のステータスコード(ushort) */
     /* e.Reason : 理由を表す文字列 */
 };
-
-ws.Connect();    /* サーバ接続 */
-
+```
+```
+ws.Connect();    /* サーバ接続 */
+```
+```
 ws.Send(data);    /* データ送信 */
-
+```
+```
 ws.Close (code, reason);    /* 閉じる */
 
 ```
