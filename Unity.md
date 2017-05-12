@@ -206,3 +206,16 @@ IEnumerator function(){
 }
 ```
 ---
+## ＜　rigidbody　＞
+```
+rigidbody.AddForce(Vector3);
+AddRelativeForce(Vector3);
+AddTorque(Vector3);
+AddRelativeTorque(Vector3);
+
+```
+```
+OnCollisionEnter
+OnTriggerEnter
+```
+---
