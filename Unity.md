@@ -226,3 +226,11 @@ OnTriggerEnter
 #### `Unity` 内部では `Quaternion` で表現されている
 #### `inspector ウィンドウ` では人が見てわかるように `Euler` で表現されている
 ---
+## ＜ 正しい `Euler` 角の使いかた ＞
+```
+float x;
+void Update () {
+    x += Time.deltaTime * 10;
+    transform.rotation = Quaternion.Euler(x,0,0);
+}
+```
