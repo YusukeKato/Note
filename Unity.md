@@ -219,3 +219,10 @@ OnCollisionEnter
 OnTriggerEnter
 ```
 ---
+## ＜ transform ＞
+#### `transform` は親に対して相対的に設定される
+---
+## ＜ Euler と Quaternion ＞
+#### `Unity` 内部では `Quaternion` で表現されている
+#### `inspector ウィンドウ` では人が見てわかるように `Euler` で表現されている
+---
