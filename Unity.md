@@ -234,3 +234,12 @@ void Update () {
     transform.rotation = Quaternion.Euler(x,0,0);
 }
 ```
+---
+## ＜  InputManager ＞
+#### `Edit > Project Settings > Input`
+#### `GetAxis` は `float` 型で返す
+```
+float dx = Input.GetAxis ("Horizontal");
+float dy = Input.GetAxis ("Vertical");
+```
+---
