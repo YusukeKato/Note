@@ -47,7 +47,7 @@ public GameObject prefab;
 ---
 ## ＜ `GameObject` を見つける＞
 ```
-GameObject.Find("player");
+GameObject.Find("player")
 ```
 ---
 ## ＜オブジェクトの生成＞
@@ -241,5 +241,10 @@ void Update () {
 ```
 float dx = Input.GetAxis ("Horizontal");
 float dy = Input.GetAxis ("Vertical");
+```
+---
+## ＜ タグで `GameObject` を見つける ＞
+```
+GameObject[] boids = GameObject.FindGameObjectsWithTag ("boid");
 ```
 ---
