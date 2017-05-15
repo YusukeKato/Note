@@ -248,3 +248,14 @@ float dy = Input.GetAxis ("Vertical");
 GameObject[] boids = GameObject.FindGameObjectsWithTag ("boid");
 ```
 ---
+## ＜ 座標を指定してそこを向かせる ＞
+```
+gameObject.transform.LookAt(gameObject2.transform);
+gameObject.transform.LookAt(Vector3);
+```
+---
+## ＜ オブジェクトの名前 ＞
+```
+object.name = "name";
+```
+---
