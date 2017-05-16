@@ -259,3 +259,28 @@ gameObject.transform.LookAt(Vector3);
 object.name = "name";
 ```
 ---
+## ＜ 大きさ ＞
+```
+(Vector3 - Vector3).magnitude
+```
+---
+## ＜ 単位ベクトル ＞
+```
+vector.normalized
+```
+---
+## ＜ 他のゲームオブジェクトを向く ＞
+```
+gameobject.transform.LookAt(target.transform);
+positionを入れてもいい
+```
+---
+## ＜ こんな向きかたもある ＞
+```
+var ds = gameobject.transform.position - prv;
+if(ds.magnitude > 0.01)
+{
+    gameobject.transform.rotation = Quaternion.LookRotation(ds);
+}
+```
+---
