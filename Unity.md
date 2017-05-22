@@ -111,7 +111,8 @@ if(Input.GetKey(KeyCode.W)) {
 ## ＜スマホでタッチ＞
 ```
 if(Input.touchCount > 0) {/* タッチがあるとき */
-  if(touch.phase == TouchPhase.Began) {
+  Touch touch = Input.GetTouch (0);    // 0 は何番目のタッチかということ
+  if(touch.phase == TouchPhase.Began) {
     /* タッチ開始時 */
   }
   else if(touch.phase == TouchPhase.Moved) {
