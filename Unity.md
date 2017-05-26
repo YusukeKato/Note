@@ -53,6 +53,8 @@ GameObject.Find("player")
 ## ＜オブジェクトの生成＞
 ```
 GameObject go = (GameObject) Instantiate (gameobject);    /* gameobjectは何でもいい */
+Instantiate(Object original, Vector3 position, Quaternion rotation, Transform parent);    /* 公式マニュアルより */
+Vector3.zero Quaternion.identity    /* デフォルト */
 ```
 ---
 ## ＜自分自身を削除＞
